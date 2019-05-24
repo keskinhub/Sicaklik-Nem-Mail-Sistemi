@@ -16,7 +16,7 @@ GPIO.setwarnings(False)
 GPIO.setmode(GPIO.BCM)
 GPIO.cleanup()
 
-# read data using pin 14
+# raspberry üzerinden verilerin sensörle transferinin yapıldığı pin(14)
 instance = dht11.DHT11(pin=14)
 
 while True:
