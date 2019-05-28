@@ -11,7 +11,7 @@ mail.starttls()
 mail.login("mailAdresin","mailSifren")
 
 
-# initialize GPIO
+# GPIO başlatma
 GPIO.setwarnings(False)
 GPIO.setmode(GPIO.BCM)
 GPIO.cleanup()
