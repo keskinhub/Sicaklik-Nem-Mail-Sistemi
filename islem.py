@@ -8,7 +8,7 @@ import smtplib
 mail = smtplib.SMTP("smtp.gmail.com",587)
 mail.ehlo() 
 mail.starttls()
-mail.login("mailAdresin","mailSifren")
+mail.login("mailAdresiniz","mailSifreniz")
 
 
 # GPIO başlatma
